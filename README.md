@@ -18,6 +18,39 @@ A Laravel-based web application designed to streamline the management of Gram Pa
 ## Installation  
 
 1. Clone the repository:
-2. ```bash
+ ```bash
    git clone https://github.com/VipulVaghjiyani/Gram-Panchayat-Management-Dashboard.git
+```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Gram-Panchayat-Management-Dashboard
+   ```
+
+3. Install dependencies
+ ```bash
+composer install
+npm install
+```
+
+4. Configure the environment:
+   Copy the .env.example file to .env.
+   Update database credentials and other configurations in .env.
+   
+6. Run migrations:
+   ```bash
+   php artisan migrate  
+   ```
+7. Start the development server:
+```bash
+php artisan serve  
+```
+
+8. Usage
+Access the application in your browser at http://localhost:8000 and log in using your assigned credentials.
+
+
+
+
+
 
